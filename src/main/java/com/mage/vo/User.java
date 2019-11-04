@@ -7,6 +7,7 @@ public class User {
     private int id;
     private String userName;
     private String userPwd;
+    private int heiht;
     private Map<String,Phone> phones=new HashMap<String,Phone>();
 
     public Map<String, Phone> getPhones() {
@@ -39,6 +40,14 @@ public class User {
 
     public void setUserPwd(String userPwd) {
         this.userPwd = userPwd;
+    }
+
+    public int getHeiht() {
+        return heiht;
+    }
+
+    public void setHeiht(int heiht) {
+        this.heiht = heiht;
     }
 
     @Override
